@@ -1,0 +1,27 @@
+.container{
+    border: 1px rgb(94, 255, 0) solid;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.red, .yellow, .blue{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+    order: -1;
+}
+.blue{
+    background-color: blue;
+    align-self: flex-end;
+}
